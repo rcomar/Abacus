@@ -23,17 +23,16 @@ def print_Abacus(numb : int):
         numbAux = int(numb / (math.pow(10,x + 1)))
         numbAux = int(numb - (numbAux * math.pow(10, x + 1)))
         if (x > 0):
-            numbAux = int(numbAux / pow(10,x))
-        else:            
-            print("- |", end="")
-            for y in range(0, 10- numbAux):            
-                print("x",end="")
-            for z in range(0,5):
-                print("-",end="")
-            for aa in range(0, numbAux):
-                print("x",end="")
-            print("|",end="")
-            print(" -")
+            numbAux = int(numbAux / pow(10,x))         
+        print("- |", end="")
+        for y in range(0, 10- numbAux):            
+            print("x",end="")
+        for z in range(0,5):
+            print("-",end="")
+        for aa in range(0, numbAux):
+            print("x",end="")
+        print("|",end="")
+        print(" -")
             
 print_title_screen()
 numb = -1
