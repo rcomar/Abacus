@@ -1,0 +1,17 @@
+numero = 1234
+
+cuando x = 0
+
+1234 quiero el 4
+
+#Saco la unidad
+numeroAux = numero / 10
+
+#Obtengo la unidad 
+numeroAux = numero - numeroAux
+
+son 9 X y 5 -
+
+si tengo el numero 1 => 
+tengo que imprimir 8 X 5 - y 1 X
+
